@@ -1,4 +1,4 @@
-# An Empirical Analysis of Parameter-Efficient Methods <br>for Debiasing Pre-Trained Language Models
+# An Empirical Analysis of Parameter-Efficient Methods for Debiasing Pre-Trained Language Models
 
 ## External Datasets
 
