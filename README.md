@@ -20,5 +20,5 @@ This repository makes use of codes from the following repositories:
 * [Sustainable modular debiasing of language models](https://aclanthology.org/attachments/2021.findings-emnlp.411.Software.zip)
 * [Language models as knowledge bases?](https://github.com/facebookresearch/LAMA)
 
-We thank the authors of the above repositories (as well as the authors whose codes are cited by the above repositories) for making their code publicly available.
+We thank the authors of the above repositories, as well as the authors whose codes are cited by the above repositories.
 
