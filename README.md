@@ -14,7 +14,7 @@ LAMA | [Download](https://dl.fbaipublicfiles.com/LAMA/data.zip) | The four LAMA 
 
 ## Experiments on Bias Mitigation
 The scripts to run our experiments on debiasing pre-trained language models with different parameter-efficient methods are in `scripts/${bias_type}`, where `${bias_type}` $\in$ {`gender`,`race`,`religion`}.
-For example, to mitigate gender bias in GPT-2 with adapter tuning, copy the script `scripts/gender/run_gpt2_adapter_rf48.sh` to and run it from the root directory of this project.
+For example, to mitigate gender bias in GPT-2 with adapter tuning, copy the script `scripts/gender/run_gpt2_adapter_rf48.sh` to and run it from the root directory of this project. Please note that all the scripts adopt a default seed of 42, and you could change the `--seed` arguments in the scripts to debias with other seeds.
 
 
 
