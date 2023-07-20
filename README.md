@@ -13,7 +13,7 @@ Wikipedia-10 | [Download](https://drive.google.com/file/d/1boQTn44RnHdxWeUKQAlRg
 LAMA | [Download](https://dl.fbaipublicfiles.com/LAMA/data.zip) | The four LAMA datasets. | `LAMA/data`
 
 ## Bias Mitigation
-To debias pre-trained language models with different parameter-efficient methods, copy the scripts in `scripts/${bias}` where `${bias}`
+To debias pre-trained language models with different parameter-efficient methods, copy the corresponding scripts in `scripts/${bias_type}` to and run them from the root directory of this project. (`${bias_type}` $\in$ {`gender`,`race`,`religion`})
 
 
 ## Fact Retrieval on LAMA
