@@ -13,6 +13,8 @@ Wikipedia-10 | [Download](https://drive.google.com/file/d/1boQTn44RnHdxWeUKQAlRg
 LAMA | [Download](https://dl.fbaipublicfiles.com/LAMA/data.zip) | The four LAMA datasets. | `LAMA/data`
 
 ## Bias Mitigation
+To debias pre-trained language models with different parameter-efficient methods, copy the scripts in `scripts/${bias}` where `${bias}`
+
 
 ## Fact Retrieval on LAMA
 
