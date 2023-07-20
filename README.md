@@ -12,8 +12,10 @@ Wikipedia-2.5 | [Download](https://drive.google.com/file/d/1JSlm8MYDbNjpMPnKbb91
 Wikipedia-10 | [Download](https://drive.google.com/file/d/1boQTn44RnHdxWeUKQAlRgQ7xrlQ_Glwo/view?usp=sharing) | English Wikipedia dump <br>used for CDA. | `data`
 LAMA | [Download](https://dl.fbaipublicfiles.com/LAMA/data.zip) | The four LAMA datasets. | `LAMA/data`
 
-## Bias Mitigation
-To debias pre-trained language models with different parameter-efficient methods, copy the corresponding scripts in `scripts/${bias_type}` to and run them from the root directory of this project. (`${bias_type}` $\in$ {`gender`,`race`,`religion`})
+## Experiments on Bias Mitigation
+The scripts to run our experiments on debiasing pre-trained language models with different parameter-efficient methods are in `scripts/${bias_type}`, where `${bias_type}` $\in$ {`gender`,`race`,`religion`}.
+For example, to mitigate gender bias in GPT-2 with adapter tuning, copy the script `scripts/gender/run_gpt2_adapter_rf48.sh` to and run it from the root directory of this project.
+
 
 
 ## Fact Retrieval on LAMA
