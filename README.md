@@ -24,7 +24,7 @@ A copy of all the evaluation results from five random seeds (0, 10, 42, 123, 123
 python stat.py --key_strings ${KEY_STRINGS}
 ```
 where `${KEY_STRINGS}` incdicates which pair of values you are going to compare. E.g., `gender-bert-ss-adapter-prefix` means the pair of StereoSet stereotype scores of adapter tuning and prefix tuning on gender-debiased BERT.
-${KEY_STRINGS} used in our paper are listed in the dict `predefined_alternatives` in  `permutation_test/data.py`, which also specifies the relationship of the pair of values in the null hypothesis.
+${KEY_STRINGS}s used in our paper are listed in the dict `predefined_alternatives` in  `permutation_test/data.py`, which also specifies the relationship of the pair of values in the null hypothesis.
 
 ## Experiments on LAMA
 
