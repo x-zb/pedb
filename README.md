@@ -17,9 +17,12 @@ The scripts to run the debiasing experiments with different parameter-efficient 
 
 For example, to mitigate gender bias in GPT-2 with adapter tuning, copy the script `scripts/gender/run_gpt2_adapter_rf48.sh` to and run it from the root directory of this project. Please note that all the scripts adopt a default seed of 42, and you could change the `--seed` arguments to use other seeds.
 
-The scripts to evaluate the CrowS-Pairs stereotype score, StereoSet stereotype score, WikiText-2 perplexity and StereoSet LM score are in `scripts/evaluate_${bias_type}.sh`. Run the commands therein from the root directory of this project to get the evaluation results.
+The bash commands to evaluate the CrowS-Pairs stereotype score, StereoSet stereotype score, WikiText-2 perplexity and StereoSet LM score are in `scripts/evaluate_${bias_type}.sh`. Run the commands therein from the root directory of this project to get the evaluation results.
 
-
+A copy of all the evaluation results from five random seeds (0, 10, 42, 123, 12345) are in `permutation_test/data.py`. Run the following command to compute the p-value of the corresponding permutation test:
+```bash
+python stat.py --key_strings 
+```
 
 ## Experiments on LAMA
 
