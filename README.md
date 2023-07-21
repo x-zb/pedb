@@ -13,7 +13,7 @@ Wikipedia-10 | [Download](https://drive.google.com/file/d/1boQTn44RnHdxWeUKQAlRg
 LAMA | [Download](https://dl.fbaipublicfiles.com/LAMA/data.zip) | The four LAMA datasets. | `LAMA/data`
 
 ## Experiments on Bias Mitigation
-The scripts to run the debiasing experiments with different parameter-efficient methods are in `scripts/${bias_type`, where `${bias_type}` $\in$ {`gender`,`race`,`religion`}.
+The scripts to run the debiasing experiments are in `scripts/${bias_type`, where `${bias_type}` $\in$ {`gender`,`race`,`religion`}.
 
 For example, to mitigate gender bias in GPT-2 with adapter tuning, copy the script `scripts/gender/run_gpt2_adapter_rf48.sh` to and run it from the root directory of this project. Please note that all the scripts adopt a default seed of 42, and you can change the `--seed` argument to use other seeds.
 
@@ -29,6 +29,8 @@ where `${KEY_STRINGS}` incdicates which pair of values you are going to compare.
 ## Experiments on LAMA
 
 ## Experiments on WinoBias
+
+The scripts to train and evaluate the models on the WinoBias dataset are in `scripts/winobias`. For example, to train and evaluate BERT via adapter tuning on the type-1 examples, copy the script `scripts/winobias/wino1_bert_adapter_rf48.sh` to and run it from the root directory of this project.
 
 ## Acknowledgements
 This repository makes use of codes from the following repositories:
