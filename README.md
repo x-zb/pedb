@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Required packages are listed in our conda environment settings `environment.yml`, where the main  
+Required packages are listed in the conda environment settings `environment.yml`.
 
 ## External Datasets
 
@@ -45,4 +45,23 @@ This repository makes use of codes from the following repositories:
 * [Language models as knowledge bases?](https://github.com/facebookresearch/LAMA)
 
 We thank the authors of the above repositories, as well as the authors whose codes are cited by the above repositories.
+
+## Citation
+If you find this repository useful, please cite the following paper:
+```
+@inproceedings{xie-lukasiewicz-2023-empirical,
+    title = "An Empirical Analysis of Parameter-Efficient Methods for Debiasing Pre-Trained Language Models",
+    author = "Xie, Zhongbin  and
+      Lukasiewicz, Thomas",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.876",
+    pages = "15730--15745",
+}
+```
+
+
 
