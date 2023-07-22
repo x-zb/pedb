@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Required packages are listed in our conda environment settings `environment.yml`.
+Required packages are listed in our conda environment settings `environment.yml`, where the main  
 
 ## External Datasets
 
