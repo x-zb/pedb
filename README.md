@@ -2,6 +2,8 @@
 
 ## Requirements
 
+Required packages are listed in our conda environment settings `environment.yml`.
+
 ## External Datasets
 
 A list of external datasets required by this repository:
