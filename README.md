@@ -28,7 +28,7 @@ where `${KEY_STRINGS}` incdicates which pair of values you are going to compare.
 
 ## Experiments on LAMA
 
-The scripts to evaluate the gender-debiased models on the four LAMA datasts are in `scripts/evaluate_lama`.
+The bash commands to evaluate the gender-debiased models on the four LAMA datasts are in `scripts/evaluate_lama.sh`.
 
 ## Experiments on WinoBias
 
