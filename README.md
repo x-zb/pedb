@@ -28,6 +28,8 @@ where `${KEY_STRINGS}` incdicates which pair of values you are going to compare.
 
 ## Experiments on LAMA
 
+The scripts to evaluate the gender-debiased models on the four LAMA datasts are in `scripts/evaluate_lama`.
+
 ## Experiments on WinoBias
 
 The scripts to train and evaluate the models on the WinoBias dataset are in `scripts/winobias`. For example, to train and evaluate BERT via adapter tuning on the type-1 examples, copy the script `scripts/winobias/wino1_bert_adapter_rf48.sh` to and run it from the root directory of this project.
