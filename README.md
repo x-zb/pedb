@@ -19,12 +19,12 @@ For example, to mitigate gender bias in GPT-2 with adapter tuning, copy the scri
 
 The bash commands to evaluate the CrowS-Pairs stereotype score, StereoSet stereotype score, WikiText-2 perplexity and StereoSet LM score are in `scripts/evaluate_${bias_type}.sh`. Run the commands therein from the root directory of this project to get the evaluation results.
 
-A copy of all the evaluation results from five random seeds (0, 10, 42, 123, 12345) are stored in the dict `results_data` in `permutation_test/data.py`. Run the following command to compute the p-value of the corresponding permutation test:
+<!--A copy of all the evaluation results from five random seeds (0, 10, 42, 123, 12345) are stored in the dict `results_data` in `permutation_test/data.py`. Run the following command to compute the p-value of the corresponding permutation test:
 ```bash
 cd permutation_test
 python stat.py --key_strings ${KEY_STRINGS}
 ```
-where `${KEY_STRINGS}` incdicates which pair of values you are going to compare. E.g., `gender-bert-ss-adapter-prefix` means the pair of StereoSet stereotype scores of adapter tuning and prefix tuning on gender-debiased BERT. All the `${KEY_STRINGS}`s used in our paper are listed in the dict `predefined_alternatives` in  `permutation_test/data.py`, which also specifies the relationship of the pair of values in the null hypothesis.
+where `${KEY_STRINGS}` incdicates which pair of values you are going to compare. E.g., `gender-bert-ss-adapter-prefix` means the pair of StereoSet stereotype scores of adapter tuning and prefix tuning on gender-debiased BERT. All the `${KEY_STRINGS}`s used in our paper are listed in the dict `predefined_alternatives` in  `permutation_test/data.py`, which also specifies the relationship of the pair of values in the null hypothesis.-->
 
 ## Experiments on LAMA
 
