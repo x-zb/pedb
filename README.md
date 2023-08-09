@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Main requirements are `adapter-transformers==3.0.1` and `datasets==2.3.2`. A list of all the packages are in the conda environment setting file `environment.yml`.
+Main requirements are `adapter-transformers==3.0.1` and `datasets==2.3.2`. A list of all the packages in the conda environment is in `environment.yml`.
 
 ## External Datasets
 
